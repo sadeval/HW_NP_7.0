@@ -43,7 +43,7 @@ namespace HW_NP_7._0
             }
             else if (gameMode == GameMode.HumanVsComputer)
             {
-                await Task.Delay(500); // Пауза перед ходом компьютера
+                await Task.Delay(500); 
                 await ComputerTurn();
             }
 
